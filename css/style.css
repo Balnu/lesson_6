@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:700,900,900italic$display=swap");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Display:100,300,regular,500,600,700,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Montserrat:wght@400;500&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+.header {
+	background-color: white;
+	min-height: 80px;
+	border: 5px solid black;
+}
+.logo {
+	margin: 10px 20px;
+}
+
+.menu {
+	font-family: "Big Shoulders Display";
+	font-size: 25px;
+	display: inline-block;
+	margin: 20px 10px 10px 10px;
+	line-height: 30px;
+	word-spacing: 25px;
+}
+.words {
+	word-spacing: 1px;
+}
+.tel {
+	word-spacing: 2px;
+	white-space: nowrap;
+}
+.botton {
+	background-color: #b9a4f3;
+	font-family: "IBM Plex Mono";
+	font-weight: 700;
+	font-size: 23px;
+	display: inline-block;
+	color: white;
+	margin: 10px 10px 10px 30px;
+	width: 300px;
+	text-align: center;
+	padding: 5px 20px;
+	height: 50px;
+	border: 3px solid transparent;
+	border-radius: 10px;
+}
+
+.main {
+	background-color: rgb(3, 3, 3);
+	min-height: 2000px;
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	text-shadow: 5px 5px 5px grey;
+	font-size: 55px;
+	color: white;
+	font-style: normal;
+	width: 500px;
+	height: auto;
+	display: inline-block;
+	margin: 50px 10px 0px 10px;
+	line-height: 85%;
+	padding: 10px;
+	text-align: center;
+	word-spacing: 1px;
+	letter-spacing: normal;
+}
+
+.main__img {
+	display: inline-block;
+	max-width: 770px;
+	max-height: 669px;
+	margin: 0px 0px 0px 5px;
+	border: 5px solid black;
+	border-top: 0px;
+}
+.main .text__item {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 23px;
+	color: white;
+	font-style: normal;
+	width: 500px;
+	height: auto;
+	display: block;
+	margin: -300px 10px 0px 10px;
+	padding: 10px;
+	text-align: left;
+	word-spacing: 1px;
+	letter-spacing: normal;
+}
+.button_scnd {
+	background-color: #ffff;
+	font-family: "IBM Plex Mono";
+	font-weight: 700;
+	font-size: 20px;
+	display: inline-block;
+	color: white;
+	margin: 50px 10px 10px 10px;
+	width: 300px;
+	text-align: center;
+	padding: 5px 20px;
+	height: 50px;
+	border: 3px solid transparent;
+	border-radius: 10px;
+}
+.text__scnd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 23px;
+	color: white;
+	font-style: normal;
+	width: 500px;
+	height: auto;
+	display: inline-block;
+	margin: 0px 10px 0px 5px;
+	padding: 10px;
+	text-align: left;
+	word-spacing: 1px;
+	letter-spacing: normal;
+}
